@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <link rel="stylesheet" href="../CSS/Price.css">
+    <script src="../JAVA_SCRIPT/Home.js" defer></script>
+    <style>
+        #pages,.price{
+            color: rgb(235, 202, 15);
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div id="logo">
+        ClinicArt
+    </div>
+    <a class="nevText  nevInfo" href="../index.html"><input id="home" type="button" value="HOME"></a>
+    <a class="nevText  nevInfo" href="./About.html"><input id="about" type="button" value="ABOUT"></a>
+    <a class="nevText  nevInfo" href="./Services.html"><input id="services" type="button" value="SERVICES"></a>
+    <a class="nevText  nevInfo" href="">
+        <input id="pages" onmouseenter="show()" onmouseleave="hide()" type="button" value="PAGES">
+    </a>
+        <ul id="pageContainer" onmouseenter="show()"  onmouseleave="hide()">
+            <li class="liHead"><a class="pageList price" href="./price.html">Pricing Plan</a></li> 
+            <li class="liHead"><a class="pageList" href="./Fetures.html">Features</a></li>
+            <li class="liHead"><a class="pageList" href="./FreeCota.html">Free Quote</a></li>
+            <li class="liHead"><a class="pageList" href="./OurTeam.html">Our Team</a></li>
+            <li class="liHead"><a class="pageList" href="./FileNotFound404.html">404 Page</a></li>
+        </ul>    
+    <a class="nevText  nevInfo" id="contect" href="./Contects.html"><input id="contect" type="button" value="CONTECT"></a>
+</nav>    
+<div id="frontContainerTextO">
+    <h1 class="h1HeadO">Pricing</h1>
+    <h3 class="h3HeadO">Home / Pricing</h2>
+</div>
+<div id="frontContainer">
+    <!-- <div  id="leftArrow"><</div> -->
+    <div id="frontDocDiv">
+        <img id="frontDocImg" src="../ASSETS/doc.webp">
+    </div>
+    
+</div>
+  
+
+</div>
+<div id="priceHeadingBar">
+    <h2 class="h2">PRICING PLAN</h2>
+    <h1 class="h1">Our Service Prices</h1>
+</div>
+<div id="priceContainer">
+    <div class="priceSubContainer">
+        <div class="headPrice">
+            <h1 class="h2">Dental Procedures</h1>
+            <h2 class="h1">Rs 10000.00</h2>
+        </div>
+        <div class="textPrice ">
+            <ul type="square">
+                <li class="h3">Dental Cleaning</li>
+                <li class="h3">Dental Filling</li>
+                <li class="h3">Root Canal Treatment</li>
+                <li class="h3">Tooth Extraction</li>
+                <li class="h3">Dental Implant</li>
+            </ul>
+        </div>
+        <div class="docButtonDiv "><input class="docButton" value="&nbsp;&nbsp;&nbsp;Contect Now" type="text"></div>
+    </div>
+    <div class="priceSubContainer">
+        <div class="headPrice">
+            <h2 class="h2">Brain Surgery</h2>
+            <h1 class="h1">Rs 150000.00</h1>
+        </div>
+        <div class="textPrice">
+            <ul type="square">
+                <li class="h3">Tumor Removal</li>    
+                <li class="h3">Aneurysm Repair.</li>
+                <li class="h3">Epilepsy Surgery.</li>
+                <li class="h3">Hydrocephalus Treatment</li>
+                <li class="h3">Parkinson's Surgery </li>
+            </ul>
+        </div>
+        <div class="docButtonDiv textPriceButton"><input class="docButton" value="&nbsp;&nbsp;&nbsp;Contect Now" type="text"></div>
+    </div>
+    <div class="priceSubContainer">
+        <div class="headPrice">
+            <h2 class="h2">Orthopedic Surger</h2>
+            <h1 class="h1">Rs 10000.00</h1>
+        </div>
+        <div class="textPrice">
+            <ul type="square">
+                <li class="h3">Knee Arthroscopy</li>  
+                <li class="h3">Shoulder Surgeries</li>
+                <li class="h3">Hip Replacement</li>
+                <li class="h3">Spine Surgery</li>
+                <li class="h3">Hand and Foot Surgery</li>
+            </ul>
+        </div>
+        <div class="docButtonDiv textPriceButton"><input class="docButton" value="&nbsp;&nbsp;&nbsp;Contect Now" type="text"></div>
+    </div>
+    <div></div>
+    <div></div>
+</div>
+ 
+<div id="formContainer">
+    <div id="form">
+        <form action="">
+            <label for="" style="font-size: 2vw;">Online Appointment</label>
+            <div class="formDiv formDiv2Input">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+            </div>
+            <div class="formDiv formDiv2Input">
+                <input type="tel" placeholder="Your Mobile">
+                <input list="section" placeholder="Select Depart" >
+                <datalist name="" id="section">
+                    <option>Dental</option>
+                    <option>Neurologist</option>
+                    <option>Cardio</option>
+                    <option>Orthopedic</option>
+                    <option>Laboratory</option>
+                    <option>Psychiatry</option>
+                </datalist>
+            </div>
+            <div class="formDiv"><input type="text" placeholder="Note"></div>
+            <div class="formDiv"><input type="submit"  id="formButton"></div>
+        </form>
+    </div>
+   <div id="formSubText">
+        <h1 class="h1">GET A QUOTE</h1> 
+        <h2 class="h2">Request A Free Qoute!</h2>
+        <h3 class="h3">Our experienced staff is available to assist you in scheduling appointments or answering your questions. You can reach out to us to share any concerns regarding your health condition. We recommend booking an appointment before visiting our clinic so that we can allocate a suitable time for you.</h3>
+        <h2 class="h2">Call for any query!</h2>
+        <h1 class="h1">+214-509-0000</h1>
+   </div>
+</div>
+
+
+
+
+
+<div  id="footer">
+    <div id="footerColumnContainer">
+        <div class="fotterColumn colorFoter" ><h1 class="h1">Address</h1>
+            <ul>
+                <li class="h4">123 Main Street,<br> Anytown,<br>United States</li>
+                <li class="h4">+214-509-0000</li>
+                <li class="h4">info@example.com</li>
+            </ul>
+        </div>
+        <div class="fotterColumn colorFoter" ><h1 class="h1">Service</h1>
+            <ul type="skilled">
+                <li class="h4">Dental</li>
+                <li class="h4">Neurologist</li>
+                <li class="h4">Cardio</li>
+                <li class="h4">Orthopedic</li>
+                <li class="h4">Laboratory</li>
+                <li class="h4">Psychiatry</li>
+            </ul>
+        </div>
+        <div class="fotterColumn colorFoter" ><h1 class="h1">Quick Links</h1>
+            <ul>
+                <li class="h4">About Us</li>
+                <li class="h4">Contect Us</li>
+                <li class="h4">Our Service</li>
+                <li class="h4">Terms & Condition</li>
+                <li class="h4">Support</li>
+            </ul>
+        </div>
+        <div class="fotterColumn colorFoter" ><h1 class="h1">Newsletter</h1>
+            <h2 class="h4">Dolor amet site <br> justo amet elitr <br>clita lpsum est.</h2>
+            <form action="" class="formbColor" class="form">
+                <input class="input" type="email" placeholder="Your email">
+                <input class="input" type="submit" >
+            </form>
+        </div> 
+    </div>
+    <div id="afterhrTag">
+        <hr>
+        <center><h1 class="h1 h1Footer">@Your,Site,All Right Reserved</h1></center>
+    </div>
+</div>
+    <a href="#"><div id="upArrow"><img id="upArrowImg" src="../ASSETS/upArrow.png" ></div></a>    
+</body>
+</html>

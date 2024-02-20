@@ -1,0 +1,10 @@
+body{
+    height: 100vw;
+}
+#ourTeam{
+    position: relative;
+    top: 30vw;
+}
+#footer{
+    top: 40vw;
+}

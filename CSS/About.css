@@ -1,0 +1,126 @@
+body{
+    width: 100%;
+    height: 150vw;
+}
+#frontContainer{
+    display: flex;
+}
+#aboutContiner{
+    width: 80%;
+    height: 60vw;
+    margin-left: 10%;
+    position: relative;
+    top: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#technologyContainer{
+    width: 100%;
+    height: 35vw;
+    position: relative;
+    top: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.technology{
+    width: 21%;
+    height: 85%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    transition: all 0.3s;
+}
+.technology:hover{
+    border: 4px solid blue;
+}
+.technologyImg{
+    width: 5vw;
+    height: 4vw;
+    padding: 10px;
+    
+}
+.h3technology{
+    font-weight: normal;
+    letter-spacing: 0px;
+    font-size: 1.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+#buttonContainer{
+    width: 100%;
+    height: 3.5vw;
+    position: relative;
+    top: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+}
+.button{
+    height: 100%;
+    width: 15vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    background-color: aqua;
+    transition: all 0.5s;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+#ourFeturesContainer{
+    margin-left: 2vw;
+    position: relative;
+    top: 35vw;
+    height: 55vw;
+}
+#aboutHeaderOurTeam{
+    width: 100%;
+    height: 5vw;
+    /* background-color: rebeccapurple; */
+    position: relative;
+    top: 50vw;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#aboutOurTeam{
+    width: 95%;
+    height: 25vw;
+    /* background-color: aqua; */
+    position: relative;
+    margin-left: 3vw;
+    top:65vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutOurService{
+    width: 100%;
+    height: 25vw;
+    position: relative;
+    top: 150vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    top: 80vw;
+}

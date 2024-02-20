@@ -1,0 +1,19 @@
+body{
+    width: 100%;
+    height: 100vw;
+}
+#priceHeadingBar{
+    position: relative;
+    top: 35vw;
+}
+#priceContainer{
+    position: relative;
+    top: -40vw;
+}
+#formContainer{
+    position: relative;
+    top: -50vw;
+}
+#footer{
+    top: -40vw;
+}

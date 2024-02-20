@@ -1,0 +1,9 @@
+body{
+    width: 100%;
+    height: 0vh;
+}
+#frontContainerTextO{
+    position: relative;
+    top: -20vw;
+    z-index: 13;
+}

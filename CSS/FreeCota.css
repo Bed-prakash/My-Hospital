@@ -1,0 +1,14 @@
+body{
+    height: 100vw;
+    width: 100%;
+}
+
+#formContainer{
+    width: 90%;
+    position: relative;
+    top: -60vw;
+    margin-left: 7vw;
+}
+#footer{
+    top: -40vw;
+}

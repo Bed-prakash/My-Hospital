@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Clinic Home Page</title>
+    <link rel="stylesheet" href="./CSS/Home.css">
+    <script src="./JAVA_SCRIPT/Home.js" defer></script>
+    <style>
+        #home{
+            color: rgb(235, 202, 15);
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div id="logo">
+        ClinicArt
+    </div>
+    <a class="nevText  nevInfo" href="./index.html"><input id="home" type="button" value="HOME"></a>
+    <a class="nevText  nevInfo" href="./HTML/About.html"><input id="about" type="button" value="ABOUT"></a>
+    <a class="nevText  nevInfo" href="./HTML/Services.html"><input id="services" type="button" value="SERVICES"></a>
+    <a class="nevText  nevInfo" href="">
+        <input id="pages" onmouseenter="show()" onmouseleave="hide()" type="button" value="PAGES">
+    </a>
+        <ul id="pageContainer" onmouseenter="show()"  onmouseleave="hide()">
+            <li class="liHead"><a class="pageList" href="./HTML/price.html">Pricing Plan</a></li> 
+            <li class="liHead"><a class="pageList" href="./HTML/Fetures.html">Features</a></li>
+            <li class="liHead"><a class="pageList" href="./HTML/FreeCota.html">Free Quote</a></li>
+            <li class="liHead"><a class="pageList" href="./HTML/OurTeam.html">Our Team</a></li>
+            <li class="liHead"><a class="pageList" href="./HTML/FileNotFound404.html">404 Page</a></li>
+        </ul>    
+    <a class="nevText  nevInfo" id="contect" href="./HTML/Contects.html"><input id="contect" type="button" value="CONTECT"></a>
+</nav>
+
+<div id="frontContainerText">
+    <h3 class="h3Head h3Head1">Made Me Your Health Is Your property.</h2>
+    <h1 class="h1Head">Health Service Design With Care.</h1>
+    <h3 class="h3Head h3Head2">welcome we have made your health as priority and we are ready to take step towards a smiling future.</h2>
+    <div class="heaButtonContainer">
+        <a href="./HTML/price.html" class="headButton">Appointment</a> 
+        <a href="./HTML/Contects.html" class="headButton">Contect Us</a>
+    </div>
+</div>
+<div id="frontContainer">
+    <div id="leftArrow" onclick="priviousPic()"><</div>
+    <div id="frontDocDiv">
+        <img id="frontDocImg" src="./ASSETS/doc.webp">
+    </div>
+    <div id="rightArrow"  onclick="nextPic()">></div>
+</div>
+<div id="bubleContainer"><div id="buble1"></div><div id="buble2"></div><div id="buble3"></div><div id="buble4"></div><div id="buble5"></div></div>
+
+<h1 id="aboutus">ABOUT US</h1>
+<div id="aboutusContainer">
+    <div><img id="aboutusImg" src="./ASSETS/doc.webp" alt="hii"></div>
+    <div id="aboutusText">
+        <h1 class="h1">A New Standard in Clinical Experience</h1><br><br>
+        <h3 id="h4aboutus">For us, patient satisfaction is a top priority. We consider every detail to provide you with a personalized and specialized healthcare experience. For us, patient satisfaction is a top priority. We consider every detail to provide you with a personalized and specialized healthcare experience. For us, patient satisfaction is a top priority. We consider every detail to provide you with a personalized and specialized healthcare experience. For us, patient satisfaction is a top priority. We consider every detail to provide you with a personalized and specialized healthcare experience.</h3>
+        <br><br><input type="button" id="button" value="CONTECT US">
+    </div>
+</div>
+
+<div id="someFectContainer">
+    <h2 class="h2">SOME FACTS</h2>
+    <h1 class="h1">Here Are Our Statistics.</h1>
+    <h3 class="h3">Since our establishment, our focus has been on our patients, successful surgeries, and the achievements we have gained. Since our establishment, our focus has been on our patients, successful surgeries, and the achievements we have gained. Since our establishment, our focus has been on our patients, successful surgeries, and the achievements we have gained. Since our establishment, our focus has been on our patients, successful surgeries, and the achievements we have gained. Since our establishment, our focus has been on our patients, successful surgeries, and the achievements we have gained.</h3>
+</div>
+<div id="callForAnyQuery">
+    <h1>Call For Any Query !!!</h1>
+    <h1>+91-1850964000</h1>
+</div>
+<div id="countContainer">
+    <div id="patientsCount">
+        <h1 style="font-size: 1.6vw;">850</h1>
+        <h2 style="font-size: 1.6vw;">Patients</h2>
+    </div>
+    <div id="completeCount">
+        <h1 style="font-size: 1.6vw;">255</h1>
+        <h2 style="font-size: 1.6vw;">Complete Surgeries</h2>
+    </div>
+    <div id="awardsCount">
+        <h1 style="font-size: 1.6vw;">32</h1>
+        <h2 style="font-size: 1.6vw;">Our Awards</h2>
+    </div>
+</div>
+
+<div class="ourService">
+    <h2 id="h2ourService">OUR SERVICES</h2>
+    <h1 id="h1ourService">Explore Our Services</h1>
+</div>
+<div id="ourServiceImgContainer">
+    <div class="doctorImgDiv" >
+        <div class="doctorImgContainer"><img class="doctorImg" src="./ASSETS/dental.jpeg" ></div>
+        <h1 class="h1doctorText">Orthopedy</h1>
+        <h2 class="h2doctorText">We enhance your quality of life by restoring your freedom of movement.</h2>
+        <div class="docButtonDiv"><input type="button" value="Read More"  class="docButton"></div>
+    </div>
+    <div class="doctorImgDiv" >
+        <div class="doctorImgContainer"><img class="doctorImg" src="./ASSETS/neuro.jpeg" alt=""></div>
+        <h1 class="h1doctorText">Laboratory</h1>
+        <h2 class="h2doctorText">We open new horizons by supporting your mental well-being.</h2>
+        <div class="docButtonDiv"><input type="button" value="Read More"  class="docButton"></div>
+    </div>
+    <div class="doctorImgDiv" id="doctorImg3">
+        <div class="doctorImgContainer"><img class="doctorImg" src="./ASSETS/cardio.jpg" alt=""></div>
+        <h1 class="h1doctorText">Psychiatry</h1>
+        <h2 class="h2doctorText">We offer inner balance and happiness by healing your mind.</h2>
+        <div class="docButtonDiv"><input type="button" value="Read More"  class="docButton"></div>
+    </div>
+    <div class="doctorImgDiv" id="doctorImg4">
+        <div class="doctorImgContainer"><img class="doctorImg" src="./ASSETS/Orthopedy.jpeg" alt=""></div>
+        <h1 class="h1doctorText">Orthopedy</h1>
+        <h2 class="h2doctorText">We enhance your quality of life by restoring your freedom of movement.</h2>
+        <div class="docButtonDiv"><input type="button" value="Read More" class="docButton"></div>
+    </div>
+    <div class="doctorImgDiv" id="doctorImg5">
+        <div class="doctorImgContainer"><img class="doctorImg" src="./ASSETS/Laboratory.jpeg" alt=""></div>
+        <h1  class="h1doctorText">Laboratory</h1>
+        <h2  class="h2doctorText">We open new horizons by supporting your mental well-being.</h2>
+        <div class="docButtonDiv"><input type="button" value="Read More" class="docButton"></div>
+    </div>
+    <div class="doctorImgDiv" id="doctorImg6">
+        <div class="doctorImgContainer"><img class="doctorImg" src="./ASSETS/Psychiatry.jpeg" alt=""></div>
+        <h1  class="h1doctorText">Psychiatry</h1>
+        <h2  class="h2doctorText">We offer inner balance and happiness by healing your mind.</h2>
+        <div class="docButtonDiv"><input type="button" value="Read More"  class="docButton"></div>
+    </div>
+    
+    <div id="ourFeturesContainer">
+        <div id="ourFeturesTextContainer">
+            <div class="ourFeturesText">
+                <h2 id="headh2OurFeturesText" >OUR FEATURES</h2>
+                <h1 id="headh1OurFeturesText">Wellness and Healing Center:
+                    Here to Transform Your Life</h1>
+            </div>
+            <div class="ourFeturesText">
+                <div class="innerOurFeturesText">
+                    <h1 class="h1innerOurFeturesText" id="ourFeturesOwnText">Our Team Of Experts</h1>
+                    <h2 class="h2innerOurFeturesText h2OurFetures">Our team consists of expert doctors who are experienced and skilled in their respective fields. They form a dedicated team that is committed to continuously enhancing their knowledge and skills in order to provide our patients</h2>
+                </div>
+            </div>
+            <div class="ourFeturesText">
+                <div>
+                    <h1 class="h1innerOurFeturesText">Clinical Hygiene</h1>
+                    <h2 class=" h2OurFetures">We maintain the highest level of clinical hygiene standards to ensure the health and well-being of our patients.</h2>
+                </div>
+            </div>
+            <div class="ourFeturesText">
+                <div>
+                    <h1 class="h1innerOurFeturesText">24/7 Telephone Support</h1>
+                    <h2 class="h2innerOurFeturesText h2OurFetures">To ensure the highest level of customer satisfaction, we provide 24/7 telephone support. Our team of experts is always just a phone call away, ready to assist you with any inquiries, requests, or emergencies. We understand the importance of being accessible and responsive to our patients' needs, and our dedicated team is here to provide support and guidance whenever you need it.</h2>
+                </div>
+            </div>
+        </div>
+        <div id="ImgContainerOurFetures">
+            <img src="./ASSETS/Doctor1.jpeg" id="ImgOurFetures">
+        </div>
+    </div>  
+</div>
+
+<div id="priceHeadingBar">
+    <h2 class="h2">PRICING PLAN</h2>
+    <h1 class="h1">Our Service Prices</h1>
+</div>
+<div id="priceContainer">
+    <div class="priceSubContainer">
+        <div class="headPrice">
+            <h1 class="h2 money">Dental Procedures</h1>
+            <h2 class="h1 money">Rs 10000.00</h2>
+        </div>
+        <div class="textPrice ">
+            <ul type="square">
+                <li class="h3">Dental Cleaning</li>
+                <li class="h3">Dental Filling</li>
+                <li class="h3">Root Canal Treatment</li>
+                <li class="h3">Tooth Extraction</li>
+                <li class="h3">Dental Implant</li>
+            </ul>
+        </div>
+        <div class="docButtonDiv "><input class="docButton" value="&nbsp;&nbsp;&nbsp;Contect Now" type="text"></div>
+    </div>
+    <div class="priceSubContainer">
+        <div class="headPrice">
+            <h2 class="h2 money">Brain Surgery</h2>
+            <h1 class="h1 money">Rs 150000.00</h1>
+        </div>
+        <div class="textPrice">
+            <ul type="square">
+                <li class="h3">Tumor Removal</li>    
+                <li class="h3">Aneurysm Repair.</li>
+                <li class="h3">Epilepsy Surgery.</li>
+                <li class="h3">Hydrocephalus Treatment</li>
+                <li class="h3">Parkinson's Surgery </li>
+            </ul>
+        </div>
+        <div class="docButtonDiv textPriceButton"><input class="docButton" value="&nbsp;&nbsp;&nbsp;Contect Now" type="text"></div>
+    </div>
+    <div class="priceSubContainer">
+        <div class="headPrice">
+            <h2 class="h2 money">Orthopedic Surger</h2>
+            <h1 class="h1 money">Rs 10000.00</h1>
+        </div>
+        <div class="textPrice">
+            <ul type="square">
+                <li class="h3">Knee Arthroscopy</li>  
+                <li class="h3">Shoulder Surgeries</li>
+                <li class="h3">Hip Replacement</li>
+                <li class="h3">Spine Surgery</li>
+                <li class="h3">Hand and Foot Surgery</li>
+            </ul>
+        </div>
+        <div class="docButtonDiv textPriceButton"><input class="docButton" value="&nbsp;&nbsp;&nbsp;Contect Now" type="text"></div>
+    </div>
+    <div></div>
+    <div></div>
+</div>
+ 
+<div id="formContainer">
+    <div id="form">
+        <form action="">
+            <div><legend>Online Appointment</legend></div>
+            <div class="formDiv formDiv2Input">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+            </div>
+            <div class="formDiv formDiv2Input">
+                <input type="tel" placeholder="Your Mobile">
+                <input list="section" placeholder="Select Depart" >
+                <datalist name="" id="section">
+                    <option>Dental</option>
+                    <option>Neurologist</option>
+                    <option>Cardio</option>
+                    <option>Orthopedic</option>
+                    <option>Laboratory</option>
+                    <option>Psychiatry</option>
+                </datalist>
+            </div>
+            <div class="formDiv"><input type="text" placeholder="Note"></div>
+            <div class="formDiv"><input type="submit"  id="formButton"></div>
+        </form>
+    </div>
+   <div id="formSubText">
+        <h1 class="h1">GET A QUOTE</h1> 
+        <h2 class="h2">Request A Free Qoute!</h2>
+        <h3 class="h3">Our experienced staff is available to assist you in scheduling appointments or answering your questions. You can reach out to us to share any concerns regarding your health condition. We recommend booking an appointment before visiting our clinic so that we can allocate a suitable time for you.</h3>
+        <h2 class="h2">Call for any query!</h2>
+        <h1 class="h1">+214-509-0000</h1>
+   </div>
+</div>
+<div id="ourTeam">
+    <div class="doctorImgDiv" id="doctorImg3">
+        <div class="doctorImgContainer"><img class="doctorImg" src="./ASSETS/Doctor1.jpeg" alt=""></div>
+        <h1 class="h1doctorText">Dr.Arthur Lovato</h1>
+        <h2 class="h2doctorText">Chief Medical Officer</h2>
+        <div class="docButtonDiv"><input type="button" value="Read More" id="button1" class="docButton"></div>
+    </div>
+    <div class="doctorImgDiv" id="doctorImg3">
+        <div class="doctorImgContainer"><img class="doctorImg" src="./ASSETS/Doctor5.jpeg" alt=""></div>
+        <h1 class="h1doctorText">Dr. Danican Wilson</h1>
+        <h2 class="h2doctorText">Orthopedic Surgeon</h2>
+        <div class="docButtonDiv"><input type="button" value="Read More" id="button1" class="docButton"></div>
+    </div>
+    <div class="doctorImgDiv" id="doctorImg3">
+        <div class="doctorImgContainer"><img class="doctorImg" src="./ASSETS/Doctor3.jpeg" alt=""></div>
+        <h1 class="h1doctorText">Dr. Adam Brown</h1>
+        <h2 class="h2doctorText">Neurosurgeon</h2>
+        <div class="docButtonDiv"><input type="button" value="Read More" id="button1" class="docButton"></div>
+    </div>
+</div>
+
+<div id="TestimonialHeader">
+    <h2 class="h2">TESTIMONIAL</h2>
+    <h1 class="h1">Our Patients Say!</h1>
+</div>
+<div id="Testimonial">
+    <div class="doctorImgDiv TestimonialImgSize" id="doctorImg3">
+        <div class="TestimonialImgConnatiner">
+            <div class="doctorImgContainer TestimonialImg"><img class="doctorImg doctorImgTestimonial" src="./ASSETS/pesent1.jpeg" alt=""></div>
+            <div class="TestimonialImgSideText">
+                <h1 class="h1doctorText">Olivia Drvish</h1>
+                <h2 class="h2doctorText">Dental Pesent</h2>
+            </div>
+        </div>
+        <h2 class="h2doctorText">I am extrimly satisfy with the service at your clinic. The profenal aproch of the nueress and doctor made me feel secure aboutr my health issues. I would like thank them for ther support.through my recovery.</h2>
+    </div>
+    <div class="doctorImgDiv TestimonialImgSize" id="doctorImg3">
+        <div class="TestimonialImgConnatiner">
+            <div class="doctorImgContainer TestimonialImg"><img class="doctorImg doctorImgTestimonial" src="./ASSETS/pesen3.jpeg" alt=""></div>
+            <div class="TestimonialImgSideText"><h1 class="h1doctorText">Prakash</h1><h2 class="h2doctorText">Neuro</h2></div>
+        </div>
+        <h2 class="h2doctorText">I am extrimly satisfy with the service at your clinic. The profenal aproch of the nueress and doctor made me feel secure aboutr my health issues. I would like thank them for ther support.through my recovery.</h2>
+    </div>
+    <div class="doctorImgDiv TestimonialImgSize" id="doctorImg3">
+        <div class="TestimonialImgConnatiner">
+            <div class="doctorImgContainer TestimonialImg"><img class="doctorImg doctorImgTestimonial" src="./ASSETS/pesent4.jpeg" alt=""></div>
+            <div class="TestimonialImgSideText"><h1 class="h1doctorText">Tarun</h1><h2 class="h2doctorText">Cardio</h2></div>
+        </div>
+        <h2 class="h2doctorText">I am extrimly satisfy with the service at your clinic. The profenal aproch of the nueress and doctor made me feel secure aboutr my health issues. I would like thank them for ther support.through my recovery.</h2>
+    </div>
+</div>
+
+<div id="footer">
+    <div id="footerColumnContainer">
+        <div class="fotterColumn colorFoter" ><h1 class="h1">Address</h1>
+            <ul>
+                <li class="h4 h4Footer">123 Main Street,<br> Anytown,<br>United States</li>
+                <li class="h4 h4Footer">+214-509-0000</li>
+                <li class="h4 h4Footer">info@example.com</li>
+            </ul>
+        </div>
+        <div class="fotterColumn colorFoter" ><h1 class="h1">Service</h1>
+            <ul type="skilled">
+                <li class="h4 h4Footer">Dental</li>
+                <li class="h4 h4Footer">Neurologist</li>
+                <li class="h4 h4Footer">Cardio</li>
+                <li class="h4 h4Footer">Orthopedic</li>
+                <li class="h4 h4Footer">Laboratory</li>
+                <li class="h4 h4Footer">Psychiatry</li>
+            </ul>
+        </div>
+        <div class="fotterColumn colorFoter" ><h1 class="h1">Quick</h1>
+            <ul>
+                <li class="h4 h4Footer">About Us</li>
+                <li class="h4 h4Footer">Contect Us</li>
+                <li class="h4 h4Footer">Our Service</li>
+                <li class="h4 h4Footer">Terms </li>
+                <li class="h4 h4Footer">Support</li>
+            </ul>
+        </div>
+        <div class="fotterColumn colorFoter" ><h1 class="h1">Newsletter</h1>
+            <h2 class="h4 h4Footer">Dolor amet site <br> justo amet elitr <br>clita lpsum est.</h2>
+            <form action="" class="formbColor h4Footer" class="form">
+                <input class="input" type="email" placeholder="Your email">
+                <input class="input" type="submit" class="submitFooter">
+            </form>
+        </div>
+    </div>
+    <div id="afterhrTag">
+        <hr>
+        <center><h1 class="h1 h1Footer">@Your,Site,All Right Reserved</h1></center>
+    </div>
+</div>
+<a href="#"><div id="upArrow"><img id="upArrowImg" src="./ASSETS/upArrow.png" ></div></a>
+</body>
+</html>

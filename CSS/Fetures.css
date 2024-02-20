@@ -1,0 +1,43 @@
+body{
+    height: 100vw;
+    width: 100%;
+}
+
+#someFectContainer{
+    width: 85%;
+    position: relative;
+    margin-left: 8vw;
+    top: 25vw;
+    display: flex;
+    align-self: center;
+}
+
+#callForAnyQuery{
+    margin-left: 15vw;
+    position: relative;
+    top: 20vw;
+}
+
+#countContainer{
+    margin-left: 5vw;
+    position: relative;
+    top: 20vw;
+}
+
+#ourFeturesContainer{
+    height: 50vw;
+    margin-left: 2vw;
+    position: relative;
+    top: 40vw;
+}
+.headh1OurFeturesText{
+    font-size: 1.6vw;
+    font-weight: normal;
+}
+#headh2OurFeturesText{
+    margin-left: 15vw;
+    margin-bottom: 1vw;
+}
+#footer{
+    top: 50vw;
+}
